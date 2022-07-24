@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h {
+  margin-bottom: 1.5rem;
+}
+
+.container .filter {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.container .filter:focus {
+  outline: none;
+}
+
+.list li {
+  border: 1px solid #ccc;
+  padding-left: 0.8rem;
+}
+
+.container .list .list-header {
+  background-color: #f4f4f4;
+}
+
+.list .list-item {
+  padding: 0.5rem;
+}

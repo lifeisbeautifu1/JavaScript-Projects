@@ -1,0 +1,144 @@
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #f4f4f4;
+  color: #000;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 span {
+  color: var(--primary-color);
+  margin-bottom: 4vh;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h1 i {
+  color: var(--primary-color);
+  font-size: 4rem;
+}
+
+.container form div label {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.container form div input[type="text"] {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  line-height: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+.container form div {
+  margin-bottom: 0.5rem;
+}
+.container .btn {
+  cursor: pointer;
+  padding: 0.5rem 0.8rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  transition: all 0.5s;
+  font-size: 1rem;
+}
+
+.container .btn:hover {
+  opacity: 0.8;
+}
+
+.container table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.container table tr {
+  border-bottom: 1px solid black;
+}
+
+.container table thead th {
+  padding: 0.5rem;
+}
+
+.container table tr td {
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+}
+
+.container table tbody tr:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.danger {
+  background-color: rgb(195, 13, 13);
+}
+
+.alert {
+  width: 100%;
+  text-align: center;
+  border: none;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.alert-danger {
+  color: #fff;
+  background-color: rgb(233, 40, 40);
+}
+
+.alert-success {
+  color: #fff;
+  background-color: rgb(53, 207, 73);
+}
+
+.checkbox {
+  margin: 2rem 0;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.checkbox input[type="checkbox"] {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+  margin: 0;
+}
+
+.checkbox input[type="checkbox"]:checked {
+  background: #abd;
+}

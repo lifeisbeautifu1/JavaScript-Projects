@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="score"></h1>
+    <div class="video-container">
+      <video src="video.mp4" autoplay muted loop></video>
+      <div class="overlay"></div>
+    </div>
+    <div class="grid"></div>
+
+    <div id="my-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="gameResult"></h2>
+        </div>
+
+        <div class="modal-body">
+          <p id="text"></p>
+
+          <button id="modal-btn" class="button">Play again</button>
+        </div>
+
+        <div class="modal-footer">
+          <h3>Space Invaders</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

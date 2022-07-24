@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"
+      integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      #fact {
+        display: none;
+      }
+    </style>
+    <title>Number Facts</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto">
+          <div class="card bg-primary text-white mt-5 p-4 text-center">
+            <h1>Number Facts</h1>
+            <p>Enter a number a get a random fact!</p>
+            <input
+              type="number"
+              class="form-control form-control-lg"
+              id="numberInput"
+              placeholder="Enter any number..."
+            />
+            <div class="card-body" id="fact">
+              <h4 class="card-title">Number Fact</h4>
+              <p class="card-text" id="factText"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

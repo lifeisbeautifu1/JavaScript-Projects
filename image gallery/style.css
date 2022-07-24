@@ -1,0 +1,27 @@
+.container {
+  width: 760px;
+  margin: auto;
+}
+
+.main-img img,
+.imgs img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadein 0.5s ease 1 forwards;
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
